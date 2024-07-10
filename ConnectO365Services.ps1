@@ -3,7 +3,7 @@ $acctName="my-m365-account@example.com"
 
 #set-executionpolicy remotesigned
 
-#Install all AzureAD and M365 modules
+#Check and install AzureAD and M365 modules
 if (Get-Module -ListAvailable -Name AzureAD) {
     Write-Host "AzureAD already exists"
 } 
